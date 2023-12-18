@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  nginx-app:
+    image: /diana7hub/nginx-repo
+    ports:
+      - "80:80"
+  tomcat-app:
+    image: /diana7hub/tomcat-repo
+    ports:
+      - "8080:8080"
